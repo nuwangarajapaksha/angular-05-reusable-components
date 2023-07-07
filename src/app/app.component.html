@@ -1,0 +1,26 @@
+<!-- 01,02 Component API, Input properties -->
+<!-- <favorite [isFavorite]="post.isFavorite"></favorite> -->
+
+<!-- 03 Aliasing Input Properties -->
+<!-- <favorite [is-favorite]="post.isFavorite"></favorite> -->
+
+<!-- 04 Aliasing Input Properties -->
+<!-- <favorite [isFavorite]="post.isFavorite"></favorite> -->
+
+<!-- 05 Output Properties -->
+<!-- <favorite
+  [isFavorite]="post.isFavorite"
+  (change)="onFavoriteChanged()"
+></favorite> -->
+
+<!-- 06,07,08 Passing Event Data -->
+<!-- <favorite
+  [isFavorite]="post.isFavorite"
+  (change)="onFavoriteChanged($event)"
+></favorite> -->
+
+<!-- 09 Aliasing Output Properties -->
+<favorite
+  [isFavorite]="post.isFavorite"
+  (change)="onFavoriteChanged($event)"
+></favorite>
